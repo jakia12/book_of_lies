@@ -73,10 +73,23 @@ div:where(.swal2-container).swal2-center > .swal2-popup {
 .fl_img {
   width: 40%;
 }
+.cnt {
+  color: white;
+  padding: 0 30px;
+  font-size: 20px;
+  padding: 0 200px;
+}
+
 @media screen and (max-width: 768px) {
   .pul_img {
     width: 700px !important;
     height: 650px !important;
     margin-top: 150%;
+  }
+  .cnt {
+    color: white;
+    padding: 0 30px;
+    font-size: 20px;
+    padding: 0 20px;
   }
 }
