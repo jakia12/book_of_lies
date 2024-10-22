@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Galindo&display=swap");
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Galindo", sans-serif;
+}
+
+.brand {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: "Galindo", sans-serif !important;
+  color: white;
+}
+
+.bttl {
+  font-size: 90px;
+  font-weight: bold;
+  font-family: "Galindo", sans-serif !important;
+  color: white;
+
+  padding-top: 25px;
+}
+.pul_img {
+  width: 700px !important;
+  height: 650px !important;
+}
+
+.footer_top {
+  background-image: linear-gradient(#000000ad, #000000b6), url(/images/fl.jpg);
+  background-size: cover;
+  background-position: no-repeat;
+
+  padding: 90px 0;
+}
+.fot_cnt h2 {
+  font-size: 63px;
+  color: white;
+  font-weight: 700;
+}
+.fot_cnt p {
+  font-size: 20px;
+  color: white;
+  padding-bottom: 20px;
+}
+.st_card {
+  background-color: white;
+  padding: 40px;
+  border-radius: 5px;
+  border: 6px solid #c28229;
+  color: black;
+  font-size: 25px;
+  font-family: "Galindo", sans-serif !important;
+}
+.st_card h3 {
+  font-size: 20px;
+  line-height: 27px;
+}
+
+.list h2 {
+  font-size: 90px;
+  color: white;
+  text-align: center;
+}
+
+div:where(.swal2-container).swal2-center > .swal2-popup {
+  grid-column: 2;
+  grid-row: 2;
+  place-self: center center;
+  z-index: 99999999999 !important;
+}
+.fl_img {
+  width: 40%;
+}
+@media screen and (max-width: 768px) {
+  .pul_img {
+    width: 700px !important;
+    height: 650px !important;
+    margin-top: 150%;
+  }
+}
